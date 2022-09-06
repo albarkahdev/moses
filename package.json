@@ -1,0 +1,30 @@
+{
+  "name": "moses",
+  "version": "1.0.0",
+  "description": "dev tools for boosting development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "DevTools",
+    "CLI"
+  ],
+  "author": "albarkahdev",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@octokit/auth-basic": "^1.4.8",
+    "@octokit/rest": "^19.0.3",
+    "chalk": "^5.0.1",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "configstore": "^6.0.0",
+    "figlet": "^1.5.2",
+    "inquirer": "^9.1.0",
+    "lodash": "^4.17.21",
+    "minimist": "^1.2.6",
+    "simple-git": "^3.11.0",
+    "touch": "^3.1.0"
+  }
+}
